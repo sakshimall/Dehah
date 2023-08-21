@@ -800,10 +800,11 @@
                       <i class="bi bi-emoji-smile"></i>
                       <span
                         data-purecounter-start="0"
-                        data-purecounter-end="6"
+                        data-purecounter-end="30"
                         data-purecounter-duration="2"
                         class="purecounter"
-                      ></span>
+                      ></span
+                      ><span style="margin-left: 0">+</span>
                       <p>
                         <strong>Happy Clients</strong>
                       </p>
@@ -818,7 +819,8 @@
                         data-purecounter-end="8"
                         data-purecounter-duration="2"
                         class="purecounter"
-                      ></span>
+                      ></span
+                      ><span style="margin-left: 0">+</span>
                       <p>
                         <strong>Projects</strong>
                       </p>
@@ -830,10 +832,11 @@
                       <i class="bi bi-clock"></i>
                       <span
                         data-purecounter-start="0"
-                        data-purecounter-end="3"
+                        data-purecounter-end="10"
                         data-purecounter-duration="4"
                         class="purecounter"
-                      ></span>
+                      ></span
+                      ><span style="margin-left: 0">+</span>
                       <p>
                         <strong>Years of experience</strong>
                       </p>
@@ -848,7 +851,8 @@
                         data-purecounter-end="2"
                         data-purecounter-duration="4"
                         class="purecounter"
-                      ></span>
+                      ></span
+                      ><span style="margin-left: 0">+</span>
                       <p>
                         <strong>Awards</strong>
                       </p>
@@ -1364,7 +1368,13 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright 2023,
+          <span id="copyright_year"
+            >&copy; Copyright
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            ,</span
+          >
           <strong
             ><a href="#" target="_blank" class="text-primary"
               >Dehah Industries Private Limited, Dehradun, Uttarakhand.</a
