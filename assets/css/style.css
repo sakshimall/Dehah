@@ -1141,6 +1141,10 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  padding: 8px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
 }
 
 .team .member .social {
